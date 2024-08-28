@@ -1,0 +1,138 @@
+.pp{
+  font-size: 180px;
+  text-align: center;
+  -webkit-text-stroke-width: 9px;
+  -webkit-text-stroke-color: palevioletred;
+}
+.navBar {
+  display: flex;
+  gap: 30px;
+  height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 5px 5px 5px whitesmoke;
+  margin-bottom: 20px;
+}
+.ul {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 20px;
+}
+.ul li:hover {
+  cursor: pointer;
+  color: red;
+  font-size: 20px;
+}
+.move {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 500px;
+}
+.btn1 {
+  padding: 15px;
+  width: 100px;
+  border-radius: 20px;
+  border: none;
+  font-weight: 500;
+  box-shadow: 1px 1px 1px whitesmoke;
+}
+.img4 {
+  display: grid;
+  height: fit-content;
+  font-size: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: 5px 5px 5px whitesmoke;
+}
+.omg {
+  height: 300px;
+  width: 400px;
+  box-shadow: 5px 5px 5px whitesmoke;
+  
+}
+.z {
+  text-align: start;
+  margin-left: 50px;
+  margin-top: 20px;
+  line-height: 40px;
+}
+/* section 3 */
+.he {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
+  padding: 40px;
+ 
+  height: fit-content;
+  gap: 120px;
+  box-shadow: 5px 5px 5px whitesmoke;
+}
+.mm {
+  height: 300px;
+  width: 400px;
+  box-shadow: 5px 5px 5px whitesmoke;
+}
+.jesus {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: fit-content;
+}
+.god {
+  grid-template-columns: 1;
+  grid-column-end: 3;
+  font-size: 50px;
+  height: 130px;
+  box-shadow: 5px 5px 5px whitesmoke;
+  
+  
+}
+.vv {
+  width: 420px;
+  height: 170px;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px whitesmoke;
+}
+.h2 {
+  display: flex;
+  justify-content: center;
+  height: 170px;
+  align-items: center;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px whitesmoke;
+  
+}
+.oo {
+ /* display: flex;
+ gap: 470px; */
+ display: grid;
+ grid-template-columns: 1fr 2fr;
+  padding: 40px;
+  box-shadow: 5px 5px 5px whitesmoke;
+  
+}
+.ff {
+  width: 60em;
+  height: 300px;
+  box-shadow: 5px 5px 5px whitesmoke;
+}
+.rate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  box-shadow: 5px 5px 5px whitesmoke;
+}
+.footer {
+  height: 15vh;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8px;
+}

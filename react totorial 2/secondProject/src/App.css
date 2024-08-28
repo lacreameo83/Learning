@@ -1,0 +1,17 @@
+.contain {
+  height: 40vh;
+  width: 20vw;
+  box-shadow: 5px 5px 5px whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.h2 {
+  width: 100px;
+  padding: 5px;
+  margin-top: 5px;
+}
+.h1 {
+  font-size: 90px;
+}

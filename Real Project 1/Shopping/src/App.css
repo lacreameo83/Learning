@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 20vw;
+  height: 60vh;
+  margin: 20px;
+  background-color: white;
+  box-shadow: 5px 5px 5px whitesmoke;
+}
+.productImg {
+  height: 55vh;
+  margin-bottom: 0;
+  padding:0 10px;
+  position: relative;
+}
+.productSoldout {
+  position: absolute;
+  top: 40%;
+  height: 50px;
+  width: 90%;
+  margin: 0 5px;
+  background-color:#c1bebe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+  opacity: 0.8;
+}
+.image {
+  height: 95%;
+  width: 100%;
+}
+.discount,.productname {
+  display: flex;
+  justify-content: space-between;
+  padding:0 20px;
+  
+}
+.productFinal {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr ;
+}
+
+.mapped-value {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+}

@@ -1,0 +1,38 @@
+.container {
+ height: fit-content;
+ width: fit-content;
+ background-color: pink;
+}
+.btn input{
+  display: block;
+  
+}
+.main input{
+  display:block;
+  
+}
+.btn {
+  display: block;
+  padding: 5px;
+  text-align: start;
+  width: 200px;
+  margin: 10px;
+}
+.displayItems {
+  height: 8vh;
+  width: 200px;
+  background-color: rgb(226, 241, 241);
+  text-align: start;
+  padding: 5px;
+  margin: 10px;
+}
+.sec1 {
+  height: 40vh;
+  width: 20vw;
+  background-color: pink;
+}
+.apicard {
+  height: 10vh;
+  width: 10vw;
+  background-color: pink;
+}

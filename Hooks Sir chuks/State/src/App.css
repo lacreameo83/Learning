@@ -1,0 +1,42 @@
+.container {
+    background-color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+}
+.container h1 {
+    text-align: center;
+    font-size: 60px;
+}
+.container button {
+width: 150px;
+padding: 20px;
+margin-left: 700px;
+margin-top: 450px;
+/* position: relative; */
+}
+.main {
+    height: 40vh;
+    width: 80vw;
+    margin-left: 200px;
+    margin-top: 200px;
+    background-color:white;
+    box-shadow: 5px 5px 5px whitesmoke;
+    /* position: absolute;
+    top: 10px; */
+}
+.main button {
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+ .group {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+}
+
+/* .main button:hover {
+    background-color: blue;
+} */

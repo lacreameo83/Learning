@@ -1,0 +1,30 @@
+.h1 {
+  height: 15vh;
+  background-color: yellow;
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+.parent {
+  height: fit-content;
+  width: 20vw;
+  background-color: beige;
+  margin: 20px;
+  box-shadow: 5px 5px 5px whitesmoke;
+}
+.practice {
+ 
+display: inline-block;
+}
+.foot {
+  height: 10vh;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
